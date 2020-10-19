@@ -1,12 +1,12 @@
-<!doctype html>
 
-<html lang="en">
-  <head>
-    <title></title>
-    <meta charset="utf-8">
-  </head>
+<?php require_once('../../../private/initialize.php'); ?>
 
-  <body>
+<?php $page_title = "Subjects" ?>
 
-  </body>
-</html>
+<?php include(SHARED_PATH . '/staff_header.php'); ?>
+
+<div id="content">
+
+</div>
+
+<?php include(SHARED_PATH . '/staff_footer.php'); ?>
