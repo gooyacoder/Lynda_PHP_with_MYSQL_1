@@ -1,7 +1,8 @@
 <?php 
 	
 	$id = $_GET['id'] ?? '1';
-	echo $id;
+	echo htmlspecialchars($id);
+	//echo $id;
 
  ?>
 
